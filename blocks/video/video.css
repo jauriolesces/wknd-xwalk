@@ -1,15 +1,11 @@
 .video {
   position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
   width: 100vw;
   max-width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 32px 0;
   text-align: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -31,7 +27,7 @@
   width: 100%;
   height: auto;
   max-width: 100vw;
-  object-fit: cover; /* Optional: ensures content fills frame */
+  object-fit: cover;
 }
 
 .video .video-placeholder {
@@ -73,7 +69,7 @@
   border: 2px solid;
   border-radius: 20px;
   padding: 0;
-  background: rgba(255, 255, 255, 0.6); /* Optional: better contrast */
+  background: rgba(255, 255, 255, 0.6);
 }
 
 .video .video-placeholder-play button::before {
