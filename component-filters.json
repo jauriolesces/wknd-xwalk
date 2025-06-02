@@ -33,6 +33,7 @@
         "accordion",
         "teaser",
         "featured-article",
+        "content-fragment",
         "blockquote",
         "article-details"
       ]
